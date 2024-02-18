@@ -18,6 +18,12 @@ namespace SalesWeb.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            ViewData["message"] = "Sales Web App";
+            
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
